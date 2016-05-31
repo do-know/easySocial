@@ -21,7 +21,7 @@ The usage is pretty straigthforward.
     caption:      "Share this on",
     title:        "Check this site!",
     description:  "This is my site description",
-    buttons:      [ 'facebook', 'twitter', "linkedin", "vk", "email", "whatsapp", "telegram" ],
+    buttons:      [ "facebook", "twitter", "linkedin", "vk", "email", "whatsapp", "telegram" ],
   });
   ```
 - Use it: 
@@ -101,7 +101,7 @@ Say you want to just create sharing links as `a` elements and you want every 2 b
     wrap:         '<div class="row">%content%</div>',
     after:        2,
     ...
-    buttons:      [ 'facebook', 'twitter', "linkedin", "email" ],
+    buttons:      [ "facebook", "twitter", "linkedin", "email" ],
   });
   ```
 This will produce a code like this (actual URLs are not given):
@@ -143,7 +143,7 @@ As a result, appropriate icon will be displayed. You can override the substituti
   var buttons = easySocial({
     icons:        { facebook: 'myfbicon' },
     ...
-    buttons:      [ 'facebook', 'twitter', "linkedin", "email" ],
+    buttons:      [ "facebook", "twitter", "linkedin", "email" ],
   });
   ```
 
