@@ -75,7 +75,7 @@ You can use the following substitutions in the button template:
 | %social% | Social tag ('facebook, 'twitter', 'linkedin', etc) |
 | %social-name% | Official resource name ('Facebook', 'Twitter', 'LinkedIn', etc) |
 | %icon% | Font Awesome icon name for the resource ('twitter', 'hacker-news', 'google-plus', etc)  |
-| %caption% | String that combines the value of a `caption` parameter and the social tag |
+| %caption% | String that combines the value of a `caption` parameter and the social name |
 
 You can provide a different template using the `tpl` parameter.
 
